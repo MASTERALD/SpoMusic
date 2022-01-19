@@ -10,7 +10,7 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    {songName: "Lo Mejor de Musica Cristiana", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
+    
     {songName: "Hillsong Young and Free- Best Friends", filePath: "songs/2.mp3", coverPath: "covers/2.jpg"},
     {songName: "Danny Gokey - Haven't Seen It Yet", filePath: "songs/3.mp3", coverPath: "covers/3.jpg"},
     {songName: "Evan Craft- Be AllRight", filePath: "songs/4.mp3", coverPath: "covers/4.jpg"},
