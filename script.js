@@ -15,11 +15,15 @@ let songs = [
     {songName: "Danny Gokey - Haven't Seen It Yet", filePath: "songs/3.mp3", coverPath: "covers/3.jpg"},
     {songName: "Evan Craft- Be AllRight", filePath: "songs/4.mp3", coverPath: "covers/4.jpg"},
     {songName: "Redimi2 Todo va a estar Bien Ft. Evan Craft", filePath: "songs/5.mp3", coverPath: "covers/5.jpg"},
-    {songName: "R", filePath: "songs/2.mp3", coverPath: "covers/6.jpg"},
-    {songName: "Sakhiyaan - Salam-e-Ishq", filePath: "songs/2.mp3", coverPath: "covers/7.jpg"},
-    {songName: "Bhula Dena - Salam-e-Ishq", filePath: "songs/2.mp3", coverPath: "covers/8.jpg"},
-    {songName: "Tumhari Kasam - Salam-e-Ishq", filePath: "songs/2.mp3", coverPath: "covers/9.jpg"},
-    {songName: "Na Jaana - Salam-e-Ishq", filePath: "songs/4.mp3", coverPath: "covers/10.jpg"},
+    {songName: "Pa Que Preguntas Alex Zurdo", filePath: "songs/2.mp3", coverPath: "covers/6.jpg"},
+    {songName: "Trastorno Redimi2", filePath: "songs/2.mp3", coverPath: "covers/7.jpg"},
+    {songName: "Lo Mio No Pasa Alex Zurdo", filePath: "songs/2.mp3", coverPath: "covers/8.jpg"},
+    {songName: "Dios No esta Muerto", filePath: "songs/2.mp3", coverPath: "covers/9.jpg"},
+    {songName: "Jesucristo Basta Un Corazon", filePath: "songs/4.mp3", coverPath: "covers/10.jpg"},
+    {songName: "Jesucristo Basta Un Corazon", filePath: "songs/4.mp3", coverPath: "covers/10.jpg"},
+    {songName: "Jesucristo Basta Un Corazon", filePath: "songs/4.mp3", coverPath: "covers/10.jpg"},
+    {songName: "Jesucristo Basta Un Corazon", filePath: "songs/4.mp3", coverPath: "covers/10.jpg"},
+
 ]
 
 songItems.forEach((element, i)=>{ 
