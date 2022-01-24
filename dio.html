@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SpoMusic</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+  <div class="main">
+  	<p id="logo"><i class="fa fa-music"></i>SpoMusic</p>
+    
+    <!--- left part --->
+     <div class="left">
+
+      <!--- song img --->
+      <img src=" maxresdefault.jpg " >
+         <div class="volume">
+            <p id="volume_show">90</p>
+            <i class="fa fa-volume-up" aria-hidden="true" onclick="mute_sound()" id="volume_icon"></i>
+            <input type="range" min="0" max="100" value="90" onchange="volume_change()" id="volume">  
+         </div>
+
+     </div>
+ 
+
+     <!--- right part --->
+  	 <div class="right">
+
+        <div class="show_song_no">
+          <p id="present">1</p>
+          <p>/</p>
+          <p id="total">5</p>
+        </div>
+
+       <!--- song title & artist name --->
+      <p style=" position: absolute;
+   top: 60px;
+   left: 50%;
+   transform: translateX(-50%);
+   text-transform: capitalize;
+   color: #fff;
+   font-size: 35px;
+    ">Dios Es Primero</p>
+      <p id="artist">Almighty</p>
+
+      <!--- middle part --->
+  	 	<div class="middle">
+
+  	      
+      	   
+  	      
+            <div class="fixed">
+        <div class="grid-3">
+            <div class="music__icon">
+                <span class="icon-heart-empty"></span>
+            </div>
+            <div>
+                <footer>
+            <div class="controles">
+ <iframe style="  background-color: blue;"  src="music/y2mate.com - Almighty x Redimi2  Dios Es Primero Official Video_320kbps.mp3"  width="300" height="67" allow="autoplay "  ></iframe>
+                
+     </div>
+        </footer>
+            </div>
+
+            
+        </div>
+
+
+  	   </div>
+
+       <!--- song duration part --->
+        <div class="duration">
+           <input type="range" min="0" max="100" value="0" id="duration_slider" onchange="change_duration()">
+        </div>
+           
+  	</div>
+
+    
+
+
+  </div>
+   
+  <!--- Add javascript file --->
+  <script src="script.js"></script>
+
+</body>
+</html>
